@@ -163,19 +163,19 @@ date-format: 2026-03-20
 
 Расширим базовую визуализацию за счёт параметров ([рис. @fig-022]).
 
-![scripts/daisyworld_param.jl](image/022.png){#fig-022 width=70%}
+![scripts/daisyworld__param.jl](image/022.png){#fig-022 width=70%}
 
 ## Базовая визуализация (параметры)
 
 Запустим скрипт ([рис. @fig-023]).
 
-![scripts/daisyworld_param.jl](image/023.png){#fig-023 width=70%}
+![scripts/daisyworld__param.jl](image/023.png){#fig-023 width=70%}
 
 ## Базовая визуализация (параметры)
 
 Просмотрим результирующие изображения в каталоге plots ([рис. @fig-024]).
 
-![daisyworld_params](image/024.png){#fig-024 width=70%}
+![daisyworld__params](image/024.png){#fig-024 width=70%}
 
 ## Базовая визуализация (параметры)
 
@@ -194,19 +194,19 @@ date-format: 2026-03-20
 
 Построим график изменения числа маргариток в зависимости от модельного времени с разными параметрами модели ([рис. @fig-027]). 
 
-![scripts/daisyworld-count_param.jl](image/027.png){#fig-027 width=70%}
+![scripts/daisyworld-count__param.jl](image/027.png){#fig-027 width=70%}
 
 ## Динамика числа маргариток (параметры)
 
 Запустим скрипт ([рис. @fig-028]).
 
-![scripts/daisyworld-count_param.jl](image/028.png){#fig-028 width=70%}
+![scripts/daisyworld-count__param.jl](image/028.png){#fig-028 width=70%}
 
 ## Динамика числа маргариток (параметры)
 
 Просмотрим результирующие изображения в каталоге plots ([рис. @fig-029]).
 
-![daisyworld-count_params](image/029.png){#fig-029 width=70%}
+![daisyworld-count__params](image/029.png){#fig-029 width=70%}
 
 ## Динамика числа маргариток (параметры)
 
@@ -224,19 +224,19 @@ date-format: 2026-03-20
 
 Построим график изменения числа маргариток в зависимости от модельного времени с разными параметрами модели ([рис. @fig-032]).
 
-![scripts/daisyworld-luminosity_param.jl](image/032.png){#fig-032 width=70%}
+![scripts/daisyworld-luminosity__param.jl](image/032.png){#fig-032 width=70%}
 
 ## Динамика модели (параметры)
 
 Запустим скрипт ([рис. @fig-033]).
 
-![scripts/daisyworld-luminosity_param.jl](image/033.png){#fig-033 width=70%}
+![scripts/daisyworld-luminosity__param.jl](image/033.png){#fig-033 width=70%}
 
 ## Динамика модели (параметры)
 
 Просмотрим результирующие изображения в каталоге plots ([рис. @fig-034]).
 
-![daisyworld-luminosity_params](image/034.png){#fig-034 width=70%}
+![daisyworld-luminosity__params](image/034.png){#fig-034 width=70%}
 
 ## Динамика модели (параметры)
 
