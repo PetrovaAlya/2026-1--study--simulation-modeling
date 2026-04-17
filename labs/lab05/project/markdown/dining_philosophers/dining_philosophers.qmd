@@ -1,0 +1,25 @@
+ENV["JULIA_PROJECT"] = "../project"
+using Plots, DataFrames, CSV, Random, LinearAlgebra
+include("../project/src/DiningPhilosophers.jl")
+using .DiningPhilosophers
+
+N = 5
+tmax = 50.0
+
+println("=== Classical network (no arbiter) ===")
+net_classic, u0_classic, _ = build_classical_network(N)
+df_classic = simulate_stochastic(net_classic, u0_classic, tmax)
+CSV.write("../project/data/dining_classic.csv", df_classic)
+dead = detect_deadlock(df_classic, net_classic)
+println("Deadlock обнаружен: $dead")
+plot_classic = plot_marking_evolution(df_classic, N)
+savefig("../project/plots/classic_simulation.png")
+
+println("=== Network with arbiter ===")
+net_arb, u0_arb, _ = build_arbiter_network(N)
+df_arb = simulate_stochastic(net_arb, u0_arb, tmax)
+CSV.write("../project/data/dining_arbiter.csv", df_arb)
+dead_arb = detect_deadlock(df_arb, net_arb)
+println("Deadlock detected: $dead")
+plot_arb = plot_marking_evolution(df_arb, N)
+savefig("../project/plots/arbiter_simulation.png")
